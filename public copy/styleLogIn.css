@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url(https://thumbs.gfycat.com/DifficultOpulentBlackfly-size_restricted.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section{
+  height: 600px;
+  width: 70%;
+  float: left;
+  margin-top: 150px;
+  margin-left: 250px;
+  background-color: rgba(0,0,0,0.60);
+}
+h1, span, label, p{
+  color: white;
+}

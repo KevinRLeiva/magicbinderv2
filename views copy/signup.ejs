@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewpoint" content="width=device-width, initial-scale=1">
+  <title>Magic Binder</title>
+  <link rel="stylesheet" href="styleLogIn.css">
+</head>
+<link rel="icon"
+    type="image/png"
+    href="https://static.wixstatic.com/media/6d5f83_1c4b31e3f57a46f793150aa5b348a54d.png/v1/fill/w_339,h_339,al_c,usm_0.66_1.00_0.01/6d5f83_1c4b31e3f57a46f793150aa5b348a54d.png">
+<body>
+  <section>
+    <div class="col-sm-6 col-sm-offset-3">
+      <h1><span class="fa fa-sign-in"></span> Signup</h1>
+      <% if (message.length > 0) { %>
+        <div class="alert alert-danger"><%= message %></div>
+        <% } %>
+        <!-- LOGIN FORM -->
+        <form action="/signup" method="post">
+          <div class="form-group">
+            <label>Email</label>
+            <input type="email" class="form-control" name="email">
+          </div>
+          <div class="form-group">
+            <label>Password</label>
+            <input type="password" class="form-control" name="password">
+          </div>
+          <button type="submit" class="btn btn-warning btn-lg">Signup</button>
+        </form>
+        <hr>
+        <p>Already have an account? <a href="/">Login</a></p>
+      </div>
+    </section>
+  </body>
+</html>
